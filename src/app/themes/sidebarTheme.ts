@@ -8,7 +8,7 @@ const customSidebarTheme = {
     inner: "h-full overflow-y-auto overflow-x-hidden rounded bg-primary py-8 px-3 text-white"
   },
   collapse: {
-    button: "group flex w-full items-center rounded-lg p-2 text-base font-normal text-white transition duration-75 hover:bg-gray-100 hover:bg-opacity-25",
+    button: "group flex w-full items-center rounded-lg p-2 text-base font-normal text-white transition duration-75 hover:bg-gray-100 hover:bg-opacity-15",
     icon: {
       base: "h-6 w-6 hover:text-white transition duration-75 group-hover:text-white",
       open: {
@@ -32,8 +32,8 @@ const customSidebarTheme = {
     base: "mt-6 rounded-lg px-2 py-4 cursor-pointer absolute bottom-10 w-11/12 text-white flex gap-3 hover:bg-gray-100 hover:text-gray-900 duration-75",
   },
   item: {
-    base: "flex items-center justify-center rounded-lg p-2 text-base font-normal text-white hover:bg-gray-100 hover:bg-opacity-25",
-    active: "bg-gray-100 dark:bg-gray-700",
+    base: "flex items-center justify-center rounded-lg p-2 text-base font-normal text-white hover:bg-gray-100 hover:bg-opacity-15",
+    active: "bg-white text-gray-900",
     collapsed: {
       insideCollapse: "group w-full pl-8 transition duration-75",
       noIcon: "font-bold"
@@ -42,8 +42,8 @@ const customSidebarTheme = {
       base: "px-3 flex-1 whitespace-nowrap"
     },
     icon: {
-      base: "h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white",
-      active: "text-gray-700 dark:text-white"
+      base: "h-6 w-6 hover:text-white transition duration-75 group-hover:text-white",
+      active: "text-gray-900"
     },
     label: "",
     listItem: ""

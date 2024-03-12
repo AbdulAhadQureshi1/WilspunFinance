@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 import { HiOutlineCubeTransparent, HiViewGrid, HiCurrencyDollar } from "react-icons/hi";
-import { ChartPieIcon, CreditCardIcon, CurrencyDollarIcon, DocumentTextIcon, Square2StackIcon, Squares2X2Icon } from "@heroicons/react/20/solid";
+import { ChartPieIcon, CreditCardIcon, CurrencyDollarIcon, DocumentTextIcon, HomeIcon, Square2StackIcon, Squares2X2Icon } from "@heroicons/react/20/solid";
 
 interface subLink {
   text: string;
@@ -16,14 +16,20 @@ interface link {
 
 const sidebarLinks: Array<link> = [
   {
-    text: "Modules",
+    text: "Home",
+    isDropdown: false,
+    url: "/",
+    icon:  HomeIcon,
+  },
+  {
+    text: "Inventory",
     isDropdown: true,
     url: "#",
     icon: Squares2X2Icon,
     children: [
       {
         text: "Item Management",
-        url: "#",
+        url: "/items",
       },
       {
         text: "Banking Management",
