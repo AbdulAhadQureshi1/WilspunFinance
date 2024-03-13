@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className + " flex"}>
         <Sidebar />
-        <div>{children}</div>
+        <div className="py-8 px-6 flex-grow">{children}</div>
       </body>
     </html>
   );
