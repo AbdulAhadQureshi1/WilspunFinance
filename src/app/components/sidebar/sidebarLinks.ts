@@ -54,6 +54,12 @@ const sidebarLinks: Array<link> = [
     url: "#",
     icon: CurrencyDollarIcon,
     isDropdown: true,
+    children: [
+      {
+        text: "Customers",
+        url: "/sales/customers",
+      }
+    ]
   },
   {
     text: "Purchase",
